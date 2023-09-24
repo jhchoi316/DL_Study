@@ -42,7 +42,7 @@ def get_data():
 
 ## pickle 파일에 저장된 '학습된 가중치 매개변수'를 읽음 ##
 def init_network():
-    with open("/Users/jaehunchoi/Desktop/JAE/Study/DL_Study/Ch3. Neural Network/dataset/sample_weight.pkl", 'rb') as f:
+    with open("/Users/jaehunchoi/Desktop/JAE/Study/DL_Study/Ch3. Neural Network/dataset/sample_weight.pkl", 'rb') as f: 
         network = pickle.load(f)
     return network
 
@@ -124,3 +124,4 @@ print("y = ", y)
 t = np.array([1, 2, 0, 0])
 print("y==t = ", y==t)
 print("np.sum(y==t) = ", np.sum(y==t))
+####################################################################
