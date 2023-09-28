@@ -21,3 +21,4 @@ t_batch = t_train[batch_mask]
 
 print("x_batch = ", x_batch)
 print("t_batch = ", t_batch)
+####################################################################
