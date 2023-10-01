@@ -26,4 +26,3 @@ plt.show()
 print("numberical_diff = ", numerical_diff(function_1, 5))
 print("numberical_diff = ", numerical_diff(function_1, 10))
 ####################################################################
-
